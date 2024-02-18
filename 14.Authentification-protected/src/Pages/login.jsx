@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import { useAuth } from '../components/auth'
 import {useNavigate, useLocation} from 'react-router-dom'
-
+// le hook useLocation est un hook  pour la navigation dans les applications React. Ce hook est utilisé pour accéder à l'objet de location du routeur, qui contient des informations sur l'URL actuelle de l'application.
 export default function Login() {
 
   const [user, setUser] = useState('')
